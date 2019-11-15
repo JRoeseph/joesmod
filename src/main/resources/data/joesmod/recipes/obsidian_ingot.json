@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "joesmod:obsidian_ingot",
+    "count": 9
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "joesmod:obsidian_ingot_block",
+      "data": 0
+    }
+  ]
+}

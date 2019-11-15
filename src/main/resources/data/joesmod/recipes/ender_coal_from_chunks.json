@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:ender_coal_chunk",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:ender_coal_chunk",
+    "data": 0
+  }
+}

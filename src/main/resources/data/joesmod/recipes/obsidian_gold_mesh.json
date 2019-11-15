@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:obsidian",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:gold_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:obsidian_gold_mesh",
+    "data": 0
+  }
+}

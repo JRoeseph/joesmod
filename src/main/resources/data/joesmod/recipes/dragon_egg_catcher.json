@@ -1,0 +1,31 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:obsidian_ingot_block",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:beacon",
+        "data": 0
+      }
+    ],
+    "C": [
+      {
+        "item": "joesmod:endricite",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:quantum_egg_catcher_block",
+    "data": 0
+  }
+}

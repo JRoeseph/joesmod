@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "  A",
+    "AAA",
+    "A A"  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:diamond",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:diamond_horse_armor",
+    "data": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:septuple_compressed_cobblestone",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "joesmod:sextuple_compressed_furnace",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:septuple_compressed_furnace",
+    "data": 0
+  }
+}

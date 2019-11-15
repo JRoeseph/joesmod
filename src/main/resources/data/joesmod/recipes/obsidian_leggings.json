@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "A A"  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:obsidian_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:obsidian_leggings",
+    "data": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "minecraft:coal",
+    "data": 1,
+    "count": 9
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "joesmod:charcoal_block",
+      "data": 0
+    }
+  ]
+}

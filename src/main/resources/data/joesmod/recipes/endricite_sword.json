@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " A ",
+    " A ",
+    " B "  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:endricite",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:endricite_sword",
+    "data": 0
+  }
+}

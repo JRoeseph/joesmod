@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "AAA",
+    "A A",
+    "A A"  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:endricite",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:endricite_leggings",
+    "data": 0
+  }
+}

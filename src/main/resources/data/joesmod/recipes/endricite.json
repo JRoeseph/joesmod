@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "joesmod:endricite",
+    "count": 9
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "joesmod:endricite_block",
+      "data": 0
+    }
+  ]
+}

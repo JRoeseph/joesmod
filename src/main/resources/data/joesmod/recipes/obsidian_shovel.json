@@ -1,0 +1,25 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    " B "  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:obsidian_ingot",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:stick",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:obsidian_shovel",
+    "data": 0
+  }
+}

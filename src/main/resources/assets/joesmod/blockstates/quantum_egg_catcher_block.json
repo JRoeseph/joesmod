@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "joesmod:quantum_egg_catcher_block" },
+        "facing=south": { "model": "joesmod:quantum_egg_catcher_block", "y": 180 },
+        "facing=west":  { "model": "joesmod:quantum_egg_catcher_block", "y": 270 },
+        "facing=east":  { "model": "joesmod:quantum_egg_catcher_block", "y": 90 }
+    }
+}

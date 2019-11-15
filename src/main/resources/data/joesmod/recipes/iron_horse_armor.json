@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "  A",
+    "AAA",
+    "A A"  ],
+  "key": {
+    "A": [
+      {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:iron_horse_armor",
+    "data": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "BAB",
+    "ABA",
+    "BAB"  ],
+  "key": {
+    "A": [
+      {
+        "item": "joesmod:lava_coal",
+        "data": 0
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:ender_eye",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "joesmod:ender_coal",
+    "data": 0,
+    "count": 4
+  }
+}

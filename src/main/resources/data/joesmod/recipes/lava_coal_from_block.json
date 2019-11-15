@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "joesmod:lava_coal",
+    "count": 9
+  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "joesmod:lava_coal_block",
+      "data": 0
+    }
+  ]
+}
