@@ -1,5 +1,5 @@
 {
-    "parent": "joesmod:block/double_compressed_cobblestone",
+    "parent": "joesmod:block/compressed_cobblestone_x5",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

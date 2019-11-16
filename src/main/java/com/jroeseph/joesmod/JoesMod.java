@@ -68,6 +68,13 @@ public class JoesMod {
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             Item.Properties properties = new Item.Properties().group(setup.itemGroup);
             event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X1, properties).setRegistryName("compressed_cobblestone_x1"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X2, properties).setRegistryName("compressed_cobblestone_x2"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X3, properties).setRegistryName("compressed_cobblestone_x3"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X4, properties).setRegistryName("compressed_cobblestone_x4"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X5, properties).setRegistryName("compressed_cobblestone_x5"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X6, properties).setRegistryName("compressed_cobblestone_x6"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X7, properties).setRegistryName("compressed_cobblestone_x7"));
+            event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X8, properties).setRegistryName("compressed_cobblestone_x8"));
         }
     }
 }
