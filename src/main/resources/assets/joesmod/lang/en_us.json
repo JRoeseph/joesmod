@@ -8,6 +8,11 @@
   "block.joesmod.compressed_cobblestone_x6": "Sextuple Compressed Cobblestone",
   "block.joesmod.compressed_cobblestone_x7": "Septuple Compressed Cobblestone",
   "block.joesmod.compressed_cobblestone_x8": "Octuple Compressed Cobblestone",
+  "block.joesmod.obsidian_ingot_block": "Obsidian Ingot Block",
+
+  "_comment": "Items",
+  "item.joesmod.obsidian_gold_mesh": "Obsidian Gold Mesh",
+  "item.joesmod.obsidian_ingot": "Obsidian Ingot",
 
   "_comment": "Creative Tabs",
   "itemGroup.joesmod": "Joe's Mod"

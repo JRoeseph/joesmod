@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "joesmod:obsidian_gold_mesh"
+  },
+  "result": "joesmod:obsidian_ingot",
+  "experience": 10,
+  "cookingtime": 300
+}

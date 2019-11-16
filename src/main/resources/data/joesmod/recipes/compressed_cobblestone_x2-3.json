@@ -7,10 +7,10 @@
   ],
   "key": {
     "A": {
-      "item": "joesmod:obsidian_ingot"
+        "item": "joesmod:compressed_cobblestone_x2"
     }
   },
   "result": {
-    "item": "joesmod:obsidian_ingot_block"
+    "item": "joesmod:compressed_cobblestone_x3"
   }
 }

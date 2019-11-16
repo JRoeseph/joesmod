@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "joesmod:obsidian_ingot_block"
+        "item": "joesmod:compressed_cobblestone_x1"
     }
   ],
   "result": {
-    "item": "joesmod:obsidian_ingot",
+    "item": "minecraft:cobblestone",
     "count": 9
   }
 }
