@@ -13,6 +13,11 @@
   "_comment": "Items",
   "item.joesmod.obsidian_gold_mesh": "Obsidian Gold Mesh",
   "item.joesmod.obsidian_ingot": "Obsidian Ingot",
+  "item.joesmod.obsidian_pickaxe": "Obsidian Pickaxe",
+  "item.joesmod.obsidian_axe": "Obsidian Axe",
+  "item.joesmod.obsidian_shovel": "Obsidian Shovel",
+  "item.joesmod.obsidian_sword": "Obsidian Sword",
+  "item.joesmod.obsidian_hoe": "Obsidian Hoe",
 
   "_comment": "Creative Tabs",
   "itemGroup.joesmod": "Joe's Mod"

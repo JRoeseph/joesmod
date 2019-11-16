@@ -83,6 +83,11 @@ public class JoesMod {
 
             event.getRegistry().register(ModItems.OBSIDIAN_GOLD_MESH);
             event.getRegistry().register(ModItems.OBSIDIAN_INGOT);
+            event.getRegistry().register(ModItems.OBSIDIAN_PICKAXE);
+            event.getRegistry().register(ModItems.OBSIDIAN_AXE);
+            event.getRegistry().register(ModItems.OBSIDIAN_SHOVEL);
+            event.getRegistry().register(ModItems.OBSIDIAN_SWORD);
+            event.getRegistry().register(ModItems.OBSIDIAN_HOE);
         }
     }
 }
