@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "joesmod:blocks/compressed_cobblestone_x3"
+  }
+}

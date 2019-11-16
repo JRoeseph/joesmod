@@ -48,6 +48,20 @@ public class JoesMod {
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 4,
                     ToolType.PICKAXE, 0, "compressed_cobblestone_x1"));
+            event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 6,
+                    ToolType.PICKAXE, 0, "compressed_cobblestone_x2"));
+            event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 8,
+                    ToolType.PICKAXE, 1, "compressed_cobblestone_x3"));
+            event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 12,
+                    ToolType.PICKAXE, 1, "compressed_cobblestone_x4"));
+            event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 15,
+                    ToolType.PICKAXE, 2, "compressed_cobblestone_x5"));
+            event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 20,
+                    ToolType.PICKAXE, 2, "compressed_cobblestone_x6"));
+            event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 25,
+                    ToolType.PICKAXE, 3, "compressed_cobblestone_x7"));
+            event.getRegistry().register(new CompressedBlock(Material.IRON, SoundType.STONE, 30,
+                    ToolType.PICKAXE, 3, "compressed_cobblestone_x8"));
         }
 
         @SubscribeEvent

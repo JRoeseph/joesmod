@@ -1,6 +1,13 @@
 {
   "_comment": "Blocks",
   "block.joesmod.compressed_cobblestone_x1": "Compressed Cobblestone",
+  "block.joesmod.compressed_cobblestone_x2": "Double Compressed Cobblestone",
+  "block.joesmod.compressed_cobblestone_x3": "Triple Compressed Cobblestone",
+  "block.joesmod.compressed_cobblestone_x4": "Quadruple Compressed Cobblestone",
+  "block.joesmod.compressed_cobblestone_x5": "Quintuple Compressed Cobblestone",
+  "block.joesmod.compressed_cobblestone_x6": "Sextuple Compressed Cobblestone",
+  "block.joesmod.compressed_cobblestone_x7": "Septuple Compressed Cobblestone",
+  "block.joesmod.compressed_cobblestone_x8": "Octuple Compressed Cobblestone",
 
   "_comment": "Creative Tabs",
   "itemGroup.joesmod": "Joe's Mod"
