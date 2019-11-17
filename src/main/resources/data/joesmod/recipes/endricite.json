@@ -6,8 +6,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "joesmod:endricite_block",
-      "data": 0
+      "item": "joesmod:endricite_block"
     }
   ]
 }

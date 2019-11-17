@@ -32,6 +32,17 @@
   "item.joesmod.coal_chunk": "Coal Chunk",
   "item.joesmod.charcoal_chunk": "Charcoal Chunk",
   "item.joesmod.obsidian_horse_armor": "Obsidian Horse Armor",
+  "item.joesmod.endricite": "Endricite",
+  "item.joesmod.endricite_pickaxe": "Endricite Pickaxe",
+  "item.joesmod.endricite_axe": "Endricite Axe",
+  "item.joesmod.endricite_shovel": "Endricite Shovel",
+  "item.joesmod.endricite_sword": "Endricite Sword",
+  "item.joesmod.endricite_hoe": "Endricite Hoe",
+  "item.joesmod.endricite_helmet": "Endricite Helmet",
+  "item.joesmod.endricite_chestplate": "Endricite Chestplate",
+  "item.joesmod.endricite_leggings": "Endricite Leggings",
+  "item.joesmod.endricite_boots": "Endricite Boots",
+  "item.joesmod.endricite_horse_armor": "Endricite Horse Armor",
 
   "_comment": "Creative Tabs",
   "itemGroup.joesmod": "Joe's Mod"

@@ -11,7 +11,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
-    OBSIDIAN("obsidian", 40, new int[]{4, 7, 10, 4}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2.5F, ModItems.OBSIDIAN_INGOT);
+    OBSIDIAN("obsidian", 40, new int[]{4, 7, 10, 4}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 2.5F, ModItems.OBSIDIAN_INGOT),
+    ENDRICITE("endricite", 48, new int[]{4, 8, 11, 5}, 24, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F, ModItems.ENDRICITE);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};
     private final String name;

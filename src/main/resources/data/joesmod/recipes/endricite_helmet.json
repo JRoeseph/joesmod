@@ -1,18 +1,15 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "AAA",
     "A A"   ],
   "key": {
-    "A": [
+    "A":
       {
-        "item": "joesmod:endricite",
-        "data": 0
+        "item": "joesmod:endricite"
       }
-    ]
   },
   "result": {
-    "item": "joesmod:endricite_helmet",
-    "data": 0
+    "item": "joesmod:endricite_helmet"
   }
 }

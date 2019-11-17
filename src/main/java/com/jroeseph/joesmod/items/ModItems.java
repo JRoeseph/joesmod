@@ -15,16 +15,16 @@ public class ModItems {
     public static ModPickaxe OBSIDIAN_PICKAXE = new ModPickaxe(ModItemTier.OBSIDIAN, 1, (float)-2.8, "obsidian_pickaxe");
 
     @ObjectHolder("joesmod:obsidian_axe")
-    public static ModPickaxe OBSIDIAN_AXE = new ModPickaxe(ModItemTier.OBSIDIAN, 5, (float)-3, "obsidian_axe");
+    public static ModAxe OBSIDIAN_AXE = new ModAxe(ModItemTier.OBSIDIAN, 5, (float)-3, "obsidian_axe");
 
     @ObjectHolder("joesmod:obsidian_shovel")
-    public static ModPickaxe OBSIDIAN_SHOVEL = new ModPickaxe(ModItemTier.OBSIDIAN, 2, (float)-3, "obsidian_shovel");
+    public static ModShovel OBSIDIAN_SHOVEL = new ModShovel(ModItemTier.OBSIDIAN, 2, (float)-3, "obsidian_shovel");
 
     @ObjectHolder("joesmod:obsidian_sword")
-    public static ModPickaxe OBSIDIAN_SWORD = new ModPickaxe(ModItemTier.OBSIDIAN, 3, (float)-2.4, "obsidian_sword");
+    public static ModSword OBSIDIAN_SWORD = new ModSword(ModItemTier.OBSIDIAN, 3, (float)-2.4, "obsidian_sword");
 
     @ObjectHolder("joesmod:obsidian_hoe")
-    public static ModPickaxe OBSIDIAN_HOE = new ModPickaxe(ModItemTier.OBSIDIAN, -3, (float)1, "obsidian_hoe");
+    public static ModHoe OBSIDIAN_HOE = new ModHoe(ModItemTier.OBSIDIAN, 1, "obsidian_hoe");
 
     @ObjectHolder("joesmod:obsidian_boots")
     public static ModArmor OBSIDIAN_BOOTS = new ModArmor(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.FEET, "obsidian_boots");
@@ -58,4 +58,37 @@ public class ModItems {
 
     @ObjectHolder("joesmod:obsidian_horse_armor")
     public static ModHorseArmor OBSIDIAN_HORSE_ARMOR = new ModHorseArmor("obsidian_horse_armor", 14);
+
+    @ObjectHolder("joesmod:endricite")
+    public static Material ENDRICITE = new Material("endricite");
+
+    @ObjectHolder("joesmod:endricite_pickaxe")
+    public static ModPickaxe ENDRICITE_PICKAXE = new ModPickaxe(ModItemTier.ENDRICITE, 1, (float)-2.8, "endricite_pickaxe");
+
+    @ObjectHolder("joesmod:endricite_axe")
+    public static ModAxe ENDRICITE_AXE = new ModAxe(ModItemTier.ENDRICITE, 5, (float)-3, "endricite_axe");
+
+    @ObjectHolder("joesmod:endricite_shovel")
+    public static ModShovel ENDRICITE_SHOVEL = new ModShovel(ModItemTier.ENDRICITE, 2, (float)-3, "endricite_shovel");
+
+    @ObjectHolder("joesmod:endricite_sword")
+    public static ModShovel ENDRICITE_SWORD = new ModShovel(ModItemTier.ENDRICITE, 3, (float)-2.4, "endricite_sword");
+
+    @ObjectHolder("joesmod:endricite_hoe")
+    public static ModHoe ENDRICITE_HOE = new ModHoe(ModItemTier.ENDRICITE, 2, "endricite_hoe");
+
+    @ObjectHolder("joesmod:endricite_boots")
+    public static ModArmor ENDRICITE_BOOTS = new ModArmor(ModArmorMaterial.ENDRICITE, EquipmentSlotType.FEET, "endricite_boots");
+
+    @ObjectHolder("joesmod:endricite_leggings")
+    public static ModArmor ENDRICITE_LEGGINGS = new ModArmor(ModArmorMaterial.ENDRICITE, EquipmentSlotType.LEGS, "endricite_leggings");
+
+    @ObjectHolder("joesmod:endricite_chestplate")
+    public static ModArmor ENDRICITE_CHESTPLATE = new ModArmor(ModArmorMaterial.ENDRICITE, EquipmentSlotType.CHEST, "endricite_chestplate");
+
+    @ObjectHolder("joesmod:endricite_helmet")
+    public static ModArmor ENDRICITE_HELMET = new ModArmor(ModArmorMaterial.ENDRICITE, EquipmentSlotType.HEAD, "endricite_helmet");
+
+    @ObjectHolder("joesmod:endricite_horse_armor")
+    public static ModHorseArmor ENDRICITE_HORSE_ARMOR = new ModHorseArmor("endricite_horse_armor", 17);
 }

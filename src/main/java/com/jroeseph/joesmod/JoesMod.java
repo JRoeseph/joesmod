@@ -109,6 +109,17 @@ public class JoesMod {
             event.getRegistry().register(ModItems.COAL_CHUNK);
             event.getRegistry().register(ModItems.CHARCOAL_CHUNK);
             event.getRegistry().register(ModItems.OBSIDIAN_HORSE_ARMOR);
+            event.getRegistry().register(ModItems.ENDRICITE);
+            event.getRegistry().register(ModItems.ENDRICITE_PICKAXE);
+            event.getRegistry().register(ModItems.ENDRICITE_AXE);
+            event.getRegistry().register(ModItems.ENDRICITE_SHOVEL);
+            event.getRegistry().register(ModItems.ENDRICITE_SWORD);
+            event.getRegistry().register(ModItems.ENDRICITE_HOE);
+            event.getRegistry().register(ModItems.ENDRICITE_BOOTS);
+            event.getRegistry().register(ModItems.ENDRICITE_LEGGINGS);
+            event.getRegistry().register(ModItems.ENDRICITE_CHESTPLATE);
+            event.getRegistry().register(ModItems.ENDRICITE_HELMET);
+            event.getRegistry().register(ModItems.ENDRICITE_HORSE_ARMOR);
         }
     }
 }

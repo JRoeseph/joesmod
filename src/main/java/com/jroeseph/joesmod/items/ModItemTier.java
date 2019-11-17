@@ -9,7 +9,8 @@ import net.minecraft.util.LazyLoadBase;
 import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
-    OBSIDIAN(4, 2000, 12.0F, 4.0F, 15, ModItems.OBSIDIAN_INGOT);
+    OBSIDIAN(4, 2000, 12.0F, 4.0F, 15, ModItems.OBSIDIAN_INGOT),
+    ENDRICITE(5, 2500, 14.0F, 5.0F, 18, ModItems.ENDRICITE);
 
     private final int harvestLevel;
     private final int maxUses;
