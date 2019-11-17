@@ -88,6 +88,10 @@ public class JoesMod {
             event.getRegistry().register(ModItems.OBSIDIAN_SHOVEL);
             event.getRegistry().register(ModItems.OBSIDIAN_SWORD);
             event.getRegistry().register(ModItems.OBSIDIAN_HOE);
+            event.getRegistry().register(ModItems.OBSIDIAN_BOOTS);
+            event.getRegistry().register(ModItems.OBSIDIAN_LEGGINGS);
+            event.getRegistry().register(ModItems.OBSIDIAN_CHESTPLATE);
+            event.getRegistry().register(ModItems.OBSIDIAN_HELMET);
         }
     }
 }

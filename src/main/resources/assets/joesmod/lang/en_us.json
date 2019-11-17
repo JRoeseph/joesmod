@@ -18,6 +18,11 @@
   "item.joesmod.obsidian_shovel": "Obsidian Shovel",
   "item.joesmod.obsidian_sword": "Obsidian Sword",
   "item.joesmod.obsidian_hoe": "Obsidian Hoe",
+  "item.joesmod.obsidian_helmet": "Obsidian Helmet",
+  "item.joesmod.obsidian_chestplate": "Obsidian Chestplate",
+  "item.joesmod.obsidian_leggings": "Obsidian Leggings",
+  "item.joesmod.obsidian_boots": "Obsidian Boots",
+
 
   "_comment": "Creative Tabs",
   "itemGroup.joesmod": "Joe's Mod"

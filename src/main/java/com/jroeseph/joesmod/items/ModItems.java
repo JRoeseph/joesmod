@@ -1,5 +1,6 @@
 package com.jroeseph.joesmod.items;
 
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModItems {
@@ -24,4 +25,16 @@ public class ModItems {
 
     @ObjectHolder("joesmod:obsidian_hoe")
     public static ModPickaxe OBSIDIAN_HOE = new ModPickaxe(ModItemTier.OBSIDIAN, -3, (float)1, "obsidian_hoe");
+
+    @ObjectHolder("joesmod:obsidian_boots")
+    public static ModArmor OBSIDIAN_BOOTS = new ModArmor(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.FEET, "obsidian_boots");
+
+    @ObjectHolder("joesmod:obsidian_leggings")
+    public static ModArmor OBSIDIAN_LEGGINGS = new ModArmor(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.LEGS, "obsidian_leggings");
+
+    @ObjectHolder("joesmod:obsidian_chestplate")
+    public static ModArmor OBSIDIAN_CHESTPLATE = new ModArmor(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.CHEST, "obsidian_chestplate");
+
+    @ObjectHolder("joesmod:obsidian_helmet")
+    public static ModArmor OBSIDIAN_HELMET = new ModArmor(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.HEAD, "obsidian_helmet");
 }
