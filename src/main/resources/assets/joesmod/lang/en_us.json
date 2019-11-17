@@ -9,6 +9,9 @@
   "block.joesmod.compressed_cobblestone_x7": "Septuple Compressed Cobblestone",
   "block.joesmod.compressed_cobblestone_x8": "Octuple Compressed Cobblestone",
   "block.joesmod.obsidian_ingot_block": "Obsidian Ingot Block",
+  "block.joesmod.lava_coal_block": "Lava Coal Block",
+  "block.joesmod.ender_coal_block": "Ender Coal Block",
+  "block.joesmod.charcoal_block": "Charcoal Block",
 
   "_comment": "Items",
   "item.joesmod.obsidian_gold_mesh": "Obsidian Gold Mesh",
@@ -22,7 +25,12 @@
   "item.joesmod.obsidian_chestplate": "Obsidian Chestplate",
   "item.joesmod.obsidian_leggings": "Obsidian Leggings",
   "item.joesmod.obsidian_boots": "Obsidian Boots",
-
+  "item.joesmod.lava_coal": "Lava Coal",
+  "item.joesmod.lava_coal_chunk": "Lava Coal Chunk",
+  "item.joesmod.ender_coal": "Ender Coal",
+  "item.joesmod.ender_coal_chunk": "Ender Coal Chunk",
+  "item.joesmod.coal_chunk": "Coal Chunk",
+  "item.joesmod.charcoal_chunk": "Charcoal Chunk",
 
   "_comment": "Creative Tabs",
   "itemGroup.joesmod": "Joe's Mod"

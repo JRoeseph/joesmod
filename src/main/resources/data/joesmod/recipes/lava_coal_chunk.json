@@ -6,8 +6,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "joesmod:lava_coal",
-      "data": 0
+      "item": "joesmod:lava_coal"
     }
   ]
 }

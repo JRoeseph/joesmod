@@ -1,19 +1,16 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "AAA",
     "AAA",
     "AAA"  ],
   "key": {
-    "A": [
+    "A":
       {
-        "item": "joesmod:lava_coal",
-        "data": 0
+        "item": "joesmod:lava_coal"
       }
-    ]
   },
   "result": {
-    "item": "joesmod:lava_coal_block",
-    "data": 0
+    "item": "joesmod:lava_coal_block"
   }
 }

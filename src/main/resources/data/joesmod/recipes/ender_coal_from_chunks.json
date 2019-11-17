@@ -1,5 +1,5 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "AAA",
     "A A",
@@ -7,13 +7,11 @@
   "key": {
     "A": [
       {
-        "item": "joesmod:ender_coal_chunk",
-        "data": 0
+        "item": "joesmod:ender_coal_chunk"
       }
     ]
   },
   "result": {
-    "item": "joesmod:ender_coal_chunk",
-    "data": 0
+    "item": "joesmod:ender_coal"
   }
 }

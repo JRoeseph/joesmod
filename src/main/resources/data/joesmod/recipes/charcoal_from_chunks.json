@@ -3,14 +3,13 @@
   "pattern": [
     "AAA",
     "A A",
-    "A A"
-  ],
+    "AAA"  ],
   "key": {
     "A": {
-      "item": "joesmod:obsidian_ingot"
+      "item": "joesmod:charcoal_chunk"
     }
   },
   "result": {
-    "item": "joesmod:obsidian_leggings"
+    "item": "minecraft:charcoal"
   }
 }

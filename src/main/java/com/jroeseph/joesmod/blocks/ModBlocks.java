@@ -1,5 +1,6 @@
 package com.jroeseph.joesmod.blocks;
 
+import com.jroeseph.joesmod.items.Material;
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModBlocks {
@@ -30,4 +31,13 @@ public class ModBlocks {
 
     @ObjectHolder("joesmod:obsidian_ingot_block")
     public static MaterialBlock OBSIDIAN_INGOT_BLOCK;
+
+    @ObjectHolder("joesmod:lava_coal_block")
+    public static FuelBlock LAVA_COAL_BLOCK;
+
+    @ObjectHolder("joesmod:ender_coal_block")
+    public static MaterialBlock ENDER_COAL_BLOCK;
+
+    @ObjectHolder("joesmod:charcoal_block")
+    public static MaterialBlock CHARCOAL_BLOCK;
 }

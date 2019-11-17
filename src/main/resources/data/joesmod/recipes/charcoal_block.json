@@ -1,19 +1,16 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "AAA",
     "AAA",
     "AAA"  ],
   "key": {
-    "A": [
+    "A":
       {
-        "item": "minecraft:coal",
-        "data": 1
+        "item": "minecraft:charcoal"
       }
-    ]
   },
   "result": {
-    "item": "joesmod:charcoal_block",
-    "data": 0
+    "item": "joesmod:charcoal_block"
   }
 }

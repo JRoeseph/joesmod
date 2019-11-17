@@ -1,25 +1,19 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     " A ",
     " A ",
-    " B "  ],
+    " B "
+  ],
   "key": {
-    "A": [
-      {
-        "item": "joesmod:obsidian_ingot",
-        "data": 0
-      }
-    ],
-    "B": [
-      {
-        "item": "minecraft:stick",
-        "data": 0
-      }
-    ]
+    "A": {
+      "item": "joesmod:obsidian_ingot"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
-    "item": "joesmod:obsidian_sword",
-    "data": 0
+    "item": "joesmod:obsidian_sword"
   }
 }

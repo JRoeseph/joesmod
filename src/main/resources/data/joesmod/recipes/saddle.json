@@ -1,25 +1,19 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     " B ",
     "AAA",
-    "ABA"  ],
+    "ABA"
+  ],
   "key": {
-    "A": [
-      {
-        "item": "minecraft:leather",
-        "data": 0
-      }
-    ],
-    "B": [
-      {
-        "item": "minecraft:tripwire_hook",
-        "data": 0
-      }
-    ]
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "item": "minecraft:tripwire_hook"
+    }
   },
   "result": {
-    "item": "minecraft:saddle",
-    "data": 0
+    "item": "minecraft:saddle"
   }
 }

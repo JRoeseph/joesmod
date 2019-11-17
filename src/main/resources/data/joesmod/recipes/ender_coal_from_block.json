@@ -6,8 +6,6 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "joesmod:ender_coal_block",
-      "data": 0
-    }
+      "item": "joesmod:ender_coal_block"
   ]
 }

@@ -1,18 +1,16 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "A A",
-    "A A"   ],
+    "A A",
+    "   "
+  ],
   "key": {
-    "A": [
-      {
-        "item": "joesmod:obsidian_ingot",
-        "data": 0
-      }
-    ]
+    "A": {
+      "item": "joesmod:obsidian_ingot"
+    }
   },
   "result": {
-    "item": "joesmod:obsidian_boots",
-    "data": 0
+    "item": "joesmod:obsidian_boots"
   }
 }

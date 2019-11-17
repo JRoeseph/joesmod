@@ -1,19 +1,16 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "AAA",
     "AAA",
     "AAA"  ],
   "key": {
-    "A": [
+    "A":
       {
-        "item": "joesmod:ender_coal",
-        "data": 0
+        "item": "joesmod:ender_coal"
       }
-    ]
   },
   "result": {
-    "item": "joesmod:ender_coal_block",
-    "data": 0
+    "item": "joesmod:ender_coal_block"
   }
 }

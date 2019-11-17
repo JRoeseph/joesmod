@@ -1,26 +1,20 @@
 {
-  "type": "forge:ore_shaped",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "BAB",
     "ABA",
     "BAB"  ],
   "key": {
-    "A": [
+    "A":
       {
-        "item": "joesmod:lava_coal",
-        "data": 0
-      }
-    ],
-    "B": [
-      {
-        "item": "minecraft:ender_eye",
-        "data": 0
-      }
-    ]
+        "item": "joesmod:lava_coal"
+      },
+    "B": {
+      "item": "minecraft:ender_eye"
+    }
   },
   "result": {
     "item": "joesmod:ender_coal",
-    "data": 0,
     "count": 4
   }
 }

@@ -1,5 +1,6 @@
 package com.jroeseph.joesmod;
 
+import com.jroeseph.joesmod.blocks.FuelBlock;
 import com.jroeseph.joesmod.blocks.MaterialBlock;
 import com.jroeseph.joesmod.blocks.ModBlocks;
 import com.jroeseph.joesmod.items.ModItems;
@@ -65,6 +66,12 @@ public class JoesMod {
                     ToolType.PICKAXE, 3, "compressed_cobblestone_x8"));
             event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.METAL, 8,
                     ToolType.PICKAXE, 3, "obsidian_ingot_block"));
+            event.getRegistry().register(new FuelBlock(Material.IRON, SoundType.STONE, 8,
+                    ToolType.PICKAXE, 3, 288000,"lava_coal_block"));
+            event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.STONE, 8,
+                    ToolType.PICKAXE, 3, "ender_coal_block"));
+            event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.STONE, 8,
+                    ToolType.PICKAXE, 3, "charcoal_block"));
         }
 
         @SubscribeEvent
@@ -80,6 +87,9 @@ public class JoesMod {
             event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X7, properties).setRegistryName("compressed_cobblestone_x7"));
             event.getRegistry().register(new BlockItem(ModBlocks.COMPRESSED_COBBLESTONE_X8, properties).setRegistryName("compressed_cobblestone_x8"));
             event.getRegistry().register(new BlockItem(ModBlocks.OBSIDIAN_INGOT_BLOCK, properties).setRegistryName("obsidian_ingot_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.LAVA_COAL_BLOCK, properties).setRegistryName("lava_coal_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.ENDER_COAL_BLOCK, properties).setRegistryName("ender_coal_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.CHARCOAL_BLOCK, properties).setRegistryName("charcoal_block"));
 
             event.getRegistry().register(ModItems.OBSIDIAN_GOLD_MESH);
             event.getRegistry().register(ModItems.OBSIDIAN_INGOT);
@@ -92,6 +102,12 @@ public class JoesMod {
             event.getRegistry().register(ModItems.OBSIDIAN_LEGGINGS);
             event.getRegistry().register(ModItems.OBSIDIAN_CHESTPLATE);
             event.getRegistry().register(ModItems.OBSIDIAN_HELMET);
+            event.getRegistry().register(ModItems.LAVA_COAL);
+            event.getRegistry().register(ModItems.LAVA_COAL_CHUNK);
+            event.getRegistry().register(ModItems.ENDER_COAL);
+            event.getRegistry().register(ModItems.ENDER_COAL_CHUNK);
+            event.getRegistry().register(ModItems.COAL_CHUNK);
+            event.getRegistry().register(ModItems.CHARCOAL_CHUNK);
         }
     }
 }

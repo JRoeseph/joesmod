@@ -1,13 +1,12 @@
 {
-  "result": {
-    "item": "joesmod:charcoal_chunk",
-    "count": 8
-  },
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal",
-      "data": 1
+      "item": "minecraft:charcoal"
     }
-  ]
+  ],
+  "result": {
+    "item": "joesmod:charcoal_chunk",
+    "count": 9
+  }
 }

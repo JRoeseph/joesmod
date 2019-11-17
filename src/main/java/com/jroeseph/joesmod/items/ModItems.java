@@ -37,4 +37,22 @@ public class ModItems {
 
     @ObjectHolder("joesmod:obsidian_helmet")
     public static ModArmor OBSIDIAN_HELMET = new ModArmor(ModArmorMaterial.OBSIDIAN, EquipmentSlotType.HEAD, "obsidian_helmet");
+
+    @ObjectHolder("joesmod:lava_coal")
+    public static FuelItem LAVA_COAL = new FuelItem("lava_coal", 3200);
+
+    @ObjectHolder("joesmod:lava_coal_chunk")
+    public static FuelItem LAVA_COAL_CHUNK = new FuelItem("lava_coal_chunk", 400);
+
+    @ObjectHolder("joesmod:ender_coal")
+    public static FuelItem ENDER_COAL = new FuelItem("ender_coal", 6400);
+
+    @ObjectHolder("joesmod:ender_coal_chunk")
+    public static FuelItem ENDER_COAL_CHUNK = new FuelItem("ender_coal_chunk", 800);
+
+    @ObjectHolder("joesmod:coal_chunk")
+    public static FuelItem COAL_CHUNK = new FuelItem("coal_chunk", 200);
+
+    @ObjectHolder("joesmod:charcoal_chunk")
+    public static FuelItem CHARCOAL_CHUNK = new FuelItem("charcoal_chunk", 200);
 }
