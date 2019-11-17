@@ -55,4 +55,7 @@ public class ModItems {
 
     @ObjectHolder("joesmod:charcoal_chunk")
     public static FuelItem CHARCOAL_CHUNK = new FuelItem("charcoal_chunk", 200);
+
+    @ObjectHolder("joesmod:obsidian_horse_armor")
+    public static ModHorseArmor OBSIDIAN_HORSE_ARMOR = new ModHorseArmor("obsidian_horse_armor", 14);
 }

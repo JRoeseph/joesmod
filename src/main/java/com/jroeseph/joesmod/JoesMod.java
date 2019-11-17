@@ -108,6 +108,7 @@ public class JoesMod {
             event.getRegistry().register(ModItems.ENDER_COAL_CHUNK);
             event.getRegistry().register(ModItems.COAL_CHUNK);
             event.getRegistry().register(ModItems.CHARCOAL_CHUNK);
+            event.getRegistry().register(ModItems.OBSIDIAN_HORSE_ARMOR);
         }
     }
 }
