@@ -47,6 +47,12 @@
   "item.joesmod.endricite_leggings": "Endricite Leggings",
   "item.joesmod.endricite_boots": "Endricite Boots",
   "item.joesmod.endricite_horse_armor": "Endricite Horse Armor",
+  "item.joesmod.iron_thiccaxe": "Iron THICCaxe",
+  "item.joesmod.gold_thiccaxe": "Gold THICCaxe",
+  "item.joesmod.diamond_thiccaxe": "Diamond THICCaxe",
+  "item.joesmod.stone_thiccaxe": "Stone THICCaxe",
+  "item.joesmod.obsidian_thiccaxe": "Obsidian THICCaxe",
+  "item.joesmod.endricite_thiccaxe": "Endricite THICCaxe",
 
   "_comment": "Creative Tabs",
   "itemGroup.joesmod": "Joe's Mod"

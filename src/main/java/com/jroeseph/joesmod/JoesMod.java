@@ -135,6 +135,12 @@ public class JoesMod {
             event.getRegistry().register(ModItems.ENDRICITE_CHESTPLATE);
             event.getRegistry().register(ModItems.ENDRICITE_HELMET);
             event.getRegistry().register(ModItems.ENDRICITE_HORSE_ARMOR);
+            event.getRegistry().register(ModItems.IRON_THICCAXE);
+            event.getRegistry().register(ModItems.ENDRICITE_THICCAXE);
+            event.getRegistry().register(ModItems.OBSIDIAN_THICCAXE);
+            event.getRegistry().register(ModItems.GOLD_THICCAXE);
+            event.getRegistry().register(ModItems.DIAMOND_THICCAXE);
+            event.getRegistry().register(ModItems.STONE_THICCAXE);
         }
     }
 }

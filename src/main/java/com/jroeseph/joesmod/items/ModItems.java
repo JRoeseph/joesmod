@@ -1,6 +1,7 @@
 package com.jroeseph.joesmod.items;
 
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ItemTier;
 import net.minecraftforge.registries.ObjectHolder;
 
 public class ModItems {
@@ -91,4 +92,22 @@ public class ModItems {
 
     @ObjectHolder("joesmod:endricite_horse_armor")
     public static ModHorseArmor ENDRICITE_HORSE_ARMOR = new ModHorseArmor("endricite_horse_armor", 17);
+
+    @ObjectHolder("joesmod:iron_thiccaxe")
+    public static ModThiccaxe IRON_THICCAXE = new ModThiccaxe("iron_thiccaxe", ItemTier.IRON, 2, (float)-3.5);
+
+    @ObjectHolder("joesmod:gold_thiccaxe")
+    public static ModThiccaxe GOLD_THICCAXE = new ModThiccaxe("gold_thiccaxe", ItemTier.GOLD, 3, (float)-3.5);
+
+    @ObjectHolder("joesmod:diamond_thiccaxe")
+    public static ModThiccaxe DIAMOND_THICCAXE = new ModThiccaxe("diamond_thiccaxe", ItemTier.DIAMOND, 4, (float)-3.5);
+
+    @ObjectHolder("joesmod:endricite_thiccaxe")
+    public static ModThiccaxe ENDRICITE_THICCAXE = new ModThiccaxe("endricite_thiccaxe", ModItemTier.ENDRICITE, 6, (float)-3.5);
+
+    @ObjectHolder("joesmod:obsidian_thiccaxe")
+    public static ModThiccaxe OBSIDIAN_THICCAXE = new ModThiccaxe("obsidian_thiccaxe", ModItemTier.OBSIDIAN, 5, (float)-3.5);
+
+    @ObjectHolder("joesmod:stone_thiccaxe")
+    public static ModThiccaxe STONE_THICCAXE = new ModThiccaxe("stone_thiccaxe", ItemTier.STONE, 1, (float)-3.5);
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "joesmod:items/cobblestone_thiccaxe"
+  }
+}
