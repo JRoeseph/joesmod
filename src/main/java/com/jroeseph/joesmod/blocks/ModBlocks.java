@@ -40,4 +40,16 @@ public class ModBlocks {
 
     @ObjectHolder("joesmod:charcoal_block")
     public static MaterialBlock CHARCOAL_BLOCK;
+
+    @ObjectHolder("joesmod:endricite_block")
+    public static MaterialBlock ENDRICITE_BLOCK;
+
+    @ObjectHolder("joesmod:endricite_ore")
+    public static MaterialBlock ENDRICITE_ORE;
+
+    @ObjectHolder("joesmod:lava_coal_ore")
+    public static MaterialBlock LAVA_COAL_ORE;
+
+    @ObjectHolder("joesmod:ender_coal_ore")
+    public static MaterialBlock ENDER_COAL_ORE;
 }

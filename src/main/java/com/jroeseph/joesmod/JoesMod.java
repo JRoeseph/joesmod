@@ -3,6 +3,7 @@ package com.jroeseph.joesmod;
 import com.jroeseph.joesmod.blocks.FuelBlock;
 import com.jroeseph.joesmod.blocks.MaterialBlock;
 import com.jroeseph.joesmod.blocks.ModBlocks;
+import com.jroeseph.joesmod.blocks.OreGen;
 import com.jroeseph.joesmod.items.ModItems;
 import com.jroeseph.joesmod.setup.ClientProxy;
 import com.jroeseph.joesmod.setup.IProxy;
@@ -42,6 +43,8 @@ public class JoesMod {
     private void setup(final FMLCommonSetupEvent event) {
         setup.init();
         proxy.getClientWorld();
+        OreGen.setupNetherOreGeneration();
+        OreGen.setupEndOreGeneration();
     }
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -72,6 +75,14 @@ public class JoesMod {
                     ToolType.PICKAXE, 3, "ender_coal_block"));
             event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.STONE, 8,
                     ToolType.PICKAXE, 3, "charcoal_block"));
+            event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.METAL, 9,
+                    ToolType.PICKAXE, 4, "endricite_block"));
+            event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.STONE, 10,
+                    ToolType.PICKAXE, 4, "endricite_ore"));
+            event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.STONE, 6,
+                    ToolType.PICKAXE, 3, "lava_coal_ore"));
+            event.getRegistry().register(new MaterialBlock(Material.IRON, SoundType.STONE, 8,
+                    ToolType.PICKAXE, 4, "ender_coal_ore"));
         }
 
         @SubscribeEvent
@@ -90,6 +101,10 @@ public class JoesMod {
             event.getRegistry().register(new BlockItem(ModBlocks.LAVA_COAL_BLOCK, properties).setRegistryName("lava_coal_block"));
             event.getRegistry().register(new BlockItem(ModBlocks.ENDER_COAL_BLOCK, properties).setRegistryName("ender_coal_block"));
             event.getRegistry().register(new BlockItem(ModBlocks.CHARCOAL_BLOCK, properties).setRegistryName("charcoal_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.ENDRICITE_BLOCK, properties).setRegistryName("endricite_block"));
+            event.getRegistry().register(new BlockItem(ModBlocks.ENDRICITE_ORE, properties).setRegistryName("endricite_ore"));
+            event.getRegistry().register(new BlockItem(ModBlocks.ENDER_COAL_ORE, properties).setRegistryName("ender_coal_ore"));
+            event.getRegistry().register(new BlockItem(ModBlocks.LAVA_COAL_ORE, properties).setRegistryName("lava_coal_ore"));
 
             event.getRegistry().register(ModItems.OBSIDIAN_GOLD_MESH);
             event.getRegistry().register(ModItems.OBSIDIAN_INGOT);

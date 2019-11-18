@@ -12,6 +12,10 @@
   "block.joesmod.lava_coal_block": "Lava Coal Block",
   "block.joesmod.ender_coal_block": "Ender Coal Block",
   "block.joesmod.charcoal_block": "Charcoal Block",
+  "block.joesmod.ender_coal_ore": "Ender Coal Ore",
+  "block.joesmod.lava_coal_ore": "Lava Coal Ore",
+  "block.joesmod.endricite_ore": "Endricite Ore",
+  "block.joesmod.endricite_block": "Endricite Block",
 
   "_comment": "Items",
   "item.joesmod.obsidian_gold_mesh": "Obsidian Gold Mesh",
